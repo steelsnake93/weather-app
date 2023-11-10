@@ -1,0 +1,27 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+#app{
+    font-family: "Tilt Neon", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    min-width: 400px;
+}
+
+.container-box{
+    padding: 1em;
+}
